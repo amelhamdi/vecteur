@@ -1,0 +1,19 @@
+program vectoriel;
+uses crt;
+var
+  V, ai, aj, bi, bj, v1, v2, v: integer;
+BEGIN
+        writeln('Entrez les composantes du 1er vectoriel :');
+       readln(ai, aj, );
+       writeln('Le 1er vecteur est donc : ',v1);
+
+       writeln('Entrez les composantes du 2nd vecteur :');
+       readln(bi, bj, );
+       writeln('Le 2nd vecteur est donc :' v2);
+         for (int i = 0; i <v.length ; i++) {
+
+       v:= ((aj*bi)+(ai*bj));
+ 
+       writeln('Le produit vectoriel est : V=',v);
+       readln
+END.
